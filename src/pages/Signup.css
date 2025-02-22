@@ -1,0 +1,144 @@
+/* Sign Up Page Styles */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+  }
+  
+  .signup-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .signup-box h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff5733;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .signup-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .signup-button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background: #e63e18;
+  }
+  
+  .divider {
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #555;
+    position: relative;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #ddd;
+  }
+  
+  .divider::before {
+    left: 0;
+  }
+  
+  .divider::after {
+    right: 0;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Increased spacing between buttons */
+    margin-top: 15px;
+  }
+  
+  .social-login button {
+    flex: none; /* Prevents stretching */
+    width: 40px; /* Smaller button width */
+    height: 40px; /* Adjust height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: white;
+  }
+  
+  
+  .google {
+    background: #db4437;
+  }
+  
+  .twitter {
+    background: #1da1f2;
+  }
+  
+  .facebook {
+    background: #1877f2;
+  }
+  
+  .google:hover {
+    background: #c1351d;
+  }
+  
+  .twitter:hover {
+    background: #0d8ae0;
+  }
+  
+  .facebook:hover {
+    background: #1359b2;
+  }
+  
+  .login-text {
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  
+  .login-text a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-text a:hover {
+    text-decoration: underline;
+  }
+  
+  .icon {
+    font-size: 1.2rem;
+  }
+  

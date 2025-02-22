@@ -1,0 +1,18 @@
+.custom-navbar {
+    background: linear-gradient(90deg, #ff5733, #ffbd33);
+    padding: 10px 20px;
+  }
+  
+  .nav-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  

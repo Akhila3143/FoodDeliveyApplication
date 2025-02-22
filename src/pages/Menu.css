@@ -1,0 +1,143 @@
+.menu-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Title Styling */
+.menu-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff6600;
+  margin-bottom: 20px;
+}
+
+.menu-section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Set same height for all menu items */
+.menu-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Ensure uniform card size */
+.food-card {
+  width: 240px;  /* Fixed width */
+  height: 300px; /* Reduced height */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+/* Food Image */
+.food-image {
+  width: 100%;
+  height: 140px;  /* Reduced height */
+  object-fit: cover;
+}
+
+/* Card Body Adjustments */
+.food-card .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push button to bottom */
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+  width: auto;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;  /* Reduced padding */
+  font-size: 14px;    /* Adjusted font size */
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #218838;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ff6600;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #ff4500;
+  box-shadow: 0px 0px 10px rgba(255, 102, 0, 0.5);
+}
+
+/* Background colors for each section */
+.menu-section[data-section="Tiffins"] {
+  background-color: #ffe5b4;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.menu-section[data-section="Vegetarian"] {
+  background-color: #d4edda;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.menu-section[data-section="Non-Vegetarian"] {
+  background-color: #f9e4e5;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.menu-section[data-section="Cakes"] {
+  background-color: #e6d1f1;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.menu-section[data-section="Fast Food"] {
+  background-color: #d3e4f6;
+  padding: 30px;
+  border-radius: 10px;
+}
+.rating-text {
+  font-size: 14px;
+  color: #ffcc00;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
